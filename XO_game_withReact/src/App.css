@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.container table{
+  width:300px;
+  margin:20px auto;
+}
+.container table td{
+  border: 1px solid grey;
+  height: 100px;
+  width: 100px;
+}
+
+
+
