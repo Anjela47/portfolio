@@ -1,0 +1,47 @@
+.nav1{
+    background-color: #F1F1F3;
+    z-index: 1;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+.nav1 .container .logo_img{
+    mix-blend-mode: multiply;
+}
+.main_pic{
+    margin-top:60px;
+}
+.container_main p{
+    font-size:16px;
+    line-height: 8px;
+    color:#626777;
+}
+.container_main h2{
+    font-size:30px;
+}
+.footer{
+    background-color: rgba(241, 241, 243, 1);
+}
+.footer-logo{
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.footer a{
+    font-size: 14px;
+    line-height: 22px;
+    color: #626777;
+    display: block;
+}
+.footer .footer-info{
+    margin-bottom:30px;
+}
+.footer .icons a{
+    margin-right:10px;
+}
+.footer .icons .foot_text{
+    margin-top: 19px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #878B98;
+}
+

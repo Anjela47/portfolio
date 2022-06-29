@@ -1,0 +1,58 @@
+.nav1{
+    background-color: #F1F1F3;
+    z-index: 1;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+.nav1 .container .logo_img{
+    mix-blend-mode: multiply;
+}
+.title{
+    font-size: 30px;
+    line-height: 37px;
+    color: #282B36;
+    margin-bottom: 16px;
+}
+.info{
+    font-size: 16px;
+    line-height: 24px;
+    color: #626777;
+    margin-bottom: 40px;
+}
+.container img{
+    border-radius: 16px;
+}
+.container button{
+    border-radius: 32px ;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px ;
+    line-height: 20px ;
+    color: #282B36;
+} 
+.footer{
+    background-color: rgba(241, 241, 243, 1);
+}
+.footer .icons a{
+    margin-right:15px;
+}
+.footer-logo{
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.footer a{
+    font-size: 14px;
+    line-height: 22px;
+    color: #626777;
+    display: block;
+}
+.footer .footer-info{
+    margin-bottom:30px;
+}
+.footer .icons .foot_text{
+    margin-top: 19px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #878B98;
+}

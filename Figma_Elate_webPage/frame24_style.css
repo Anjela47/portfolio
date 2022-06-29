@@ -1,0 +1,104 @@
+.nav1{
+    z-index: 1;
+    position:fixed;
+    width:100%;
+    top:0; 
+    background-color: #F1F1F3;
+}
+.nav1 .container .logo_img{
+    mix-blend-mode: multiply;
+} 
+.container2{
+    margin-top:120px;
+}
+.container2 a{
+    text-decoration: none;
+    margin: 10px;
+    color:#626777;
+    font-size: 16px;
+}   
+.container2 .form-control{
+    width:100px;
+    height:48px;
+    box-shadow: 0px 0px 2px;
+    border-radius:32px;
+    margin: 10px;
+    cursor:pointer;
+}
+.container .item {
+    border-bottom: 4px solid #FFD078;
+    font-family:  sans-serif;
+}   
+.container3 select{
+    border: 1.5px solid #DCDDE9;
+    border-radius: 24px;
+    text-align: center;
+}                                         
+.container3 button{
+    display:inline;
+    width: 200px;
+    height: 40px;
+    border: 1.5px solid #ffffff;
+    background-color: #FFD078;
+    border-radius: 24px;
+    text-align: center;
+    margin-top: 30px;
+}    
+
+.container4{
+    box-shadow: 0px 0px 2px #ccccce;
+    border-radius: 24px;
+}
+.container4 .first_info{
+    text-align: left;
+}
+.container4 .first_info .name{
+   font-size:22px;
+}
+.container4 .first_info p{
+    font-size:16px;
+    line-height: 8px;
+    color:rgba(98, 103, 119, 1)
+ }
+ .container4 .for_img img{
+     border: 1px solid #ffff;
+     border-radius: 24px;
+ }
+ .container4 .first_info .btn{
+    border:1px solid #ffff;
+    border-radius: 24px;
+    background-color: #FFD078;
+    color:#626777;
+    float:right;
+}
+.container4 .first_info a{
+    text-decoration: none;
+    cursor:pointer;
+    color:black;
+    font-size:30px;
+}
+ .footer{
+    background-color: rgba(241, 241, 243, 1);
+}
+.footer-logo{
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.footer a{
+    font-size: 14px;
+    line-height: 22px;
+    color: #626777;
+    display: block;
+}
+.footer .footer-info{
+    margin-bottom:30px;
+}
+.footer .icons a{
+    margin-right:15px;
+}
+.footer .icons .foot_text{
+    margin-top: 19px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #878B98;
+}
