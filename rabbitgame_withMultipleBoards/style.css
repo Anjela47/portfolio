@@ -1,0 +1,84 @@
+body{
+  background-color:rgb(229, 205, 252)
+}
+button{
+  border: none;
+  background-color: rgb(166, 218, 245);
+  margin:10px;
+  width:100px;
+}
+
+.start{
+  display:inline-block;
+  text-align:center}
+.select{
+  display: inline-block;
+}
+.newbutton{
+  text-align: center;
+}
+#board{
+  margin: 0 auto;
+}
+
+#buttons{
+  margin-left:30%;
+}
+#buttons button{
+  border-radius: 10px;
+  border: 1 px solid grey;
+    margin: 10px;
+    width: 100px;
+}
+#main{
+  margin:0 auto;
+  background-color: rgb(202, 231, 245);
+  border-radius: 20px;
+}
+.box {
+    width: 60px;
+    height: 60px;
+    background-color:purple;
+    margin: 1px;
+    float: left;
+  }
+img{
+  width: 60px;
+  height: 60px;
+  background-color: purple;
+}
+#messageBox {
+  width: 100%;
+  background-color: rgb(131, 127, 127,0.7);
+  z-index:1;
+  position: fixed;
+  display: none;
+}
+#message{
+  font-size: 35px;
+  border-radius:20px;
+    color:black;
+    position: fixed;
+    top: 10%;
+    margin-top: -50px;
+    left: 41%;
+    margin-left: -100px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(245, 230, 143); 
+}
+
+#messageBox button{
+  border:none;
+  border-radius: 20px;
+  width:100px;
+  height: 50px;
+  background-color: beige;
+  top: 20%;
+  left: 41%;
+  margin-left: 50px;
+  position: fixed;
+  z-index:1;
+}
