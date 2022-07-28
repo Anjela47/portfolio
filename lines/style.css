@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #061F3E;
+    background-image: url("./Images/universe.jpg");
+    background-size: 100%;
+}
+.game{
+    width:70%;
+    margin:0 auto;
+    text-align: center;
+}
+.gameCtrl{
+    margin:10px;
+    padding:10px
+}
+.newGameButton{
+    background-color: #451E3D;
+    color:white;
+    cursor:pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+}
+.score{
+    color:white
+}
+.higlight{
+    outline:2px gray solid;
+}
+.main{
+    margin:0 auto;
+    width:600px;
+    display: flex;
+}
+.board{
+    padding:10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgb(6,31,62,0.5);
+    width: 468px;
+}
+.next{
+    border-radius: 10px;
+    width:100px;
+    background-color: rgb(6,31,62,0.5);
+}
+.box{
+    background-color: rgb(138,43,226,0.7);
+    width:50px;
+    height: 50px;
+    margin: 1px;
+    border-radius: 2px;
+    float: left;
+}
+
+.board img{
+    width:40px;
+    height: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.nextThreeBalls{
+    border-radius: 10px;
+    background-color: rgb(138,43,226,0.7);
+    margin:5px;
+    width:90%;
+    height: 40%;
+}
+.nextThreeBalls .nextBall{
+    margin:0 auto;
+    width:50px;
+    height: 50px;
+    margin: 6px;
+}
+.nextThreeBalls .nextBall img{
+    width:100%;
+    margin:10px
+}
